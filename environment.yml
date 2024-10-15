@@ -1,0 +1,26 @@
+name: unc
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=1.12.1
+  - cudatoolkit=11.6
+  - pandas
+  - numpy
+  - scipy
+  - tqdm
+  - matplotlib
+  - seaborn
+  - torchvision=0.13.1
+  - torchaudio=0.12.1
+  - jupyterlab
+  - scikit-learn
+  - gitpython
+  - pip
+  - pip:
+      - wandb
+      - wget
+      - laplace-torch
+      - foolbox
